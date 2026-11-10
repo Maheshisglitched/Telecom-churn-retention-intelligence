@@ -4,6 +4,9 @@ An interactive machine learning dashboard for estimating customer churn risk, ex
 
 > **Project status:** Functional local prototype; deployment pending; notebook leakage review completed. This is an educational demonstration, not a validated production decision system.
 
+## Live Demo
+
+🚀 [Try the Telecom Churn Intelligence Dashboard](https://telecom-churn-retention-intelligence-chpnhnmbkj9oqhrkyd8xtw.streamlit.app/)
 ## Overview
 
 Customer churn occurs when subscribers stop using a service. This project uses customer account, service, and billing features to estimate the probability of churn and presents the results in a Streamlit dashboard. It combines predictive analytics with interpretable model outputs and transparent, rule-based retention ideas.
