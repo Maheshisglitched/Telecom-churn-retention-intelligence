@@ -1,0 +1,25 @@
+# Python environments
+.venv/
+.venv313/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.*
+
+# Temporary development files
+app_backup.py
+app_sidebar_debug.py
+sidebar_test.py
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db

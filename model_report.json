@@ -1,0 +1,39 @@
+{
+  "selected_model": "Logistic Regression",
+  "best_params": {
+    "model__C": 18.73817422860385
+  },
+  "test_metrics": {
+    "accuracy": 0.7395315826827538,
+    "precision": 0.5060449050086355,
+    "recall": 0.7834224598930482,
+    "f1": 0.614900314795383,
+    "roc_auc": 0.8404221240538375,
+    "average_precision": 0.6266232939568656
+  },
+  "feature_columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "risk_thresholds": {
+    "medium": 0.3,
+    "high": 0.6
+  }
+}
